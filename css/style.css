@@ -209,6 +209,16 @@ html, body {
                     font-size: 1.4em;
 
                 }
+                .main-menu nav .browse-categories .dropdown .dropdown-menu .dropdown-item {
+                    background-color: var(--color-theme);
+                    color: var(--color-white);
+                    
+
+                }
+                .main-menu nav .browse-categories .dropdown .dropdown-menu .dropdown-item:hover {
+                    background-color: var(--color-theme-dark);
+                }
+
 
         .main-menu nav .special-offer {
             flex: 7;
