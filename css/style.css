@@ -229,8 +229,40 @@ html, body {
         }
 
 
+/* Mitt försök på nästa veckas inlämning */
+.shopping {
+    height: 600px;
+    background-color: var(--color-gray-3);
+}
+    .shopping .container {
+        flex-direction: column;
+        padding-top: 125px;
+    }
+        .shop {
+            font-family: var(--font-roboto);
+            font-size: var(--font-size-60);
+        }
+        .more-fun {
+            font-family: var(--font-roboto);
+            font-size: var(--font-size-60);
+            color: var(--color-theme);
+            font-weight: bold;
+        }
+        .text {
+            width: 390px;
+            font-size: var(--font-size-16);
+            font-family: var(--font-roboto);
+        }
+        .shopnow-button {
+            color: var(--color-theme);
+            border: none;
+            font-size: var(--font-size-18);
+            font-weight: var(--font-weight-medium);
 
-        
+        }
+
+
+/* Den responsiva delen nedan */
 
 @media (max-width: 330px) {
     .top-menu .menu-links .socialmedia-links{
