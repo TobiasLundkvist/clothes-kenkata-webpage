@@ -69,6 +69,7 @@ html, body {
     .top-menu .site-settings {
         display: flex;
     }
+        /* select language */
         .top-menu .site-settings .dropdown-theme{
             background-color: var(--color-theme);
             color: var(--color-white);
@@ -102,6 +103,7 @@ html, body {
                         color: var(--color-white);
                     }
 
+    /* info-/socialmedia links */
     .top-menu .menu-links a {
         color: var(--color-white);
         text-decoration: none;
@@ -143,6 +145,8 @@ html, body {
     .main-menu .search {
         flex: 4;
     }
+
+    /* checkout */
     .main-menu .checkout-links {
         flex: 3;
         display: flex;
@@ -178,7 +182,7 @@ html, body {
             justify-content: space-between;
             align-items: center;
         }
-
+        /* browse categories */
         .main-menu nav .browse-categories {
             flex: 2;
         }
@@ -220,7 +224,7 @@ html, body {
                     background-color: var(--color-theme-dark);
                 }
 
-
+                /* offers */
         .main-menu nav .special-offer {
             flex: 7;
             display: flex;
@@ -229,7 +233,7 @@ html, body {
         }
 
 
-/* Mitt försök på nästa veckas inlämning */
+/* Mitt försök på nästa veckas lektion */
 .shopping {
     height: 600px;
     background-color: var(--color-gray-3);
@@ -262,7 +266,7 @@ html, body {
         }
 
 
-/* Den responsiva delen nedan */
+/* The responsive part below */
 
 @media (max-width: 330px) {
     .top-menu .menu-links .socialmedia-links{
@@ -362,4 +366,27 @@ html, body {
 
 }
 
+@media (max-width: 992px) {
+    .main-menu > .container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-menu .checkout-links .checkout-link {
+        padding-top: 1.5rem;
+    }
+    .main-menu .checkout-links .checkout-link:first-child {
+        margin: 0;
+    }
+    .main-menu .checkout-links .checkout-link:last-child {
+        margin: 0; 
+    }
+
+    .main-menu nav .browse-categories {
+        display: flex;
+        justify-content: center;
+    }
+
+}
 
