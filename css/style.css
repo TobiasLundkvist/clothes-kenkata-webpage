@@ -31,6 +31,7 @@
     --border-radius-rounded: 50%;
 }
 
+/* GENERAL */
 html, body {
     font-size: 16px;
     line-height: 1.5;
@@ -103,7 +104,7 @@ html, body {
     .top-menu .site-settings {
         display: flex;
     }
-        /* select language */
+        /* select language/currency */
         .top-menu .site-settings .dropdown-theme{
             background-color: var(--color-theme);
             color: var(--color-white);
@@ -180,7 +181,7 @@ html, body {
         flex: 4;
     }
 
-    /* checkout */
+    /* checkout/my account */
     .main-menu .checkout-links {
         flex: 3;
         display: flex;
@@ -338,12 +339,13 @@ html, body {
 
 
 
-
+    /* shop by category and grid/positioning */
     .shop-by-category .grid {
         display: grid;
         grid-template-columns: repeat(5, minmax(100px, 249px));
         grid-template-rows: repeat(3, minmax(100px, 249px));
         gap: 0.8rem;
+        padding-bottom: 4rem;
     }
     .shop-by-category .category-box {
         position: relative;
