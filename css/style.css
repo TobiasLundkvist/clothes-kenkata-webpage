@@ -524,6 +524,48 @@ html, body {
 
 
 
+    .new-customer {
+        background-color: var(--color-gray-1);
+        margin-top: 10.25rem;
+    }   
+        .new-customer .new-customer-body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 420px; 
+        }
+
+        .new-customer .new-customer-body .new-customer-discount {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 255px;
+            height: 420px;
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            font-size: var(--font-size-36);
+            font-weight: var(--font-weight-bold);
+        }
+
+        .new-customer .new-customer-body .new-customer-discount h1 {
+            font-family: var(--font-play);
+        }
+        .new-customer .new-customer-body .new-customer-discount h1 strong {
+            font-size: var(--font-size-60);
+        }
+
+        .new-customer .new-customer-body .new-customer-discount p {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-regular);
+        }
+        .new-customer .new-customer-body .new-customer-learnmore {
+            width: 445px;
+            height: 97px;
+        }
+
+
+
 
 /* The responsive part below */
 @media (max-width: 330px) {
