@@ -62,7 +62,7 @@ html, body {
     padding-right: 1.75rem;
 }
     .btn-white:hover {
-        background-color: var(--color-theme-dark);
+        background-color: var(--color-theme);
         color: var(--color-white);
     }
 
@@ -590,12 +590,14 @@ html, body {
         background-color: var(--color-theme-dark);
         height: 435px;
         margin-top: 10rem;
+        margin-bottom: 4rem;
     }
         .flash-sale .flash-sale-body {
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
+        }   
+            /* flash sale box */
             .flash-sale .flash-sale-body .flash-sale-box {
                 background-color: var(--color-theme);
                 color: var(--color-white);
@@ -608,45 +610,92 @@ html, body {
                     font-size: var(--font-size-60);
                     font-family: var(--font-play);
                     font-weight: var(--font-weight-bold);
-                    margin-top: 1rem;                    
+                    margin-top: 1.5rem;                    
                 }
 
                 .flash-sale .flash-sale-body .flash-sale-box p {
                     font-size: var(--font-size-24);
                     font-family: var(--font-roboto);
                 }
+
+        /* flash sale circle */
         .flash-sale .flash-sale-body .flash-sale-circle {
             display: flex;
             justify-content: center;
             align-items: center;
             margin-top: 6rem;
-
+            line-height: 2.2rem;
         }
         
             .flash-sale .flash-sale-body .flash-sale-circle .circle {
                 height: 109px;
                 width: 109px;
-                background-color: var(--color-white);
-                color: var(--color-theme);
                 border-radius: 50%;
-                border: 3px dotted var(--color-theme);
-                text-align: center;
+                background-color: var(--color-white);
+                color: var(--color-dark);
+                outline-color: var(--color-theme);
                 margin: 1rem;
+                outline-style: dotted;
+                text-align: center;
                 font-size: var(--font-size-16);
                 font-family: var(--font-roboto);
                 font-weight: var(--font-weight-regular);
+                padding-top: 1.4rem;
+                transition: background-color 200ms ease-in-out;
             }
                 .flash-sale .flash-sale-body .flash-sale-circle .circle span {
                     font-family: var(--font-play);
                     font-size: var(--font-size-36);
                     font-weight: var(--font-weight-bold);
+                    color: var(--color-theme);
                     display: block;
                 }
+
+                    .flash-sale .flash-sale-body .flash-sale-circle .circle:hover {
+                        background-color: var(--color-gray-2);
+                        
+                    }
 
             .flash-sale .shop-now-button {
                 position: relative;
                 left: 930px;
             }
+    
+
+/* top sellers */
+
+
+
+    .flash-grid .card-menu {
+        position: absolute;
+        z-index: 1;
+        top: 120%;
+        right: 1rem;
+        list-style: none;
+        margin: auto;
+        padding: 0.8rem;
+        font-size: 1.25rem;
+        border-radius: var(--border-radius-medium);
+        background-color: var(--color-white);
+        transition: top 0.3s ease-in-out;
+    }
+        .card:hover .card-menu {
+            top: 20px;
+        }
+
+            .card .card-menu li {
+                margin-top: 0.3rem;
+                margin-bottom: 0.3rem;
+                font-size: 1em;
+            }
+
+                .card .card-menu li a {
+                    color: var(--color-gray-0);
+                }
+                    .card .card-menu li a:hover {
+                        color: var(--color-theme); 
+                    }
+
 
 
 
