@@ -698,10 +698,63 @@ html, body {
         .card-body-auto h1 {
             margin-top: 3.2rem;
         }
-        
+
             .card_auto .card-background-auto {
                 height: 7.7%;
             }
+
+
+
+    .background-color{
+        height: 313px;
+        background-color: var(--color-gray-4);
+        margin-top: 5rem;
+    }
+        .end-title-body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .end-title-body .end-title h1 {
+                font-family: var(--font-play);
+                font-size: var(--font-size-36);
+                font-weight: var(--font-weight-bold);
+                color: var(--color-theme-dark);
+
+            }
+            .end-title-body .end-title span {
+                color: var(--color-theme);
+            }
+            .end-title-body .end-title p {
+                width: 500px;
+                height: 49px;
+                font-size: var(--font-size-16);
+                font-family: var(--font-roboto);
+                font-weight: var(--font-weight-regular);
+            }
+
+            .end-title-body .image {
+                height: 313px;
+                width: 540px;
+                background-color: var(--color-gray-1);
+            }
+
+
+    .background-color-end {
+        height: 80px;
+        background-color: var(--color-dark);
+        color: var(--color-white);
+    }
+
+        .text-footer {
+            font-size: var(--font-size-16);
+            font-family: var(--font-roboto);
+            font-weight: var(--font-weight-regular);
+            padding-top: 1.5rem;
+        }
+
+    
 
 
 
