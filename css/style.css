@@ -838,7 +838,29 @@ html, body {
                 font-size: var(--font-size-16);
                 font-family: var(--font-roboto);
                 font-weight: var(--font-weight-regular);
+                margin-top: 1rem;
             }
+            
+            #subscribeNowForm {
+                display: flex;
+                position: relative;
+                margin-top: 2.8rem;
+                align-items: center;
+            }
+
+                #subscribeNowForm .subscribenow {
+                    position: relative;
+                    height: 2.5rem;
+                    width: 100%;
+                    border-radius: var(--border-radius-medium);
+                    border: 1px solid var(--color-gray-2);
+                    outline: none;
+                    padding-left: 1.5rem;
+                }
+                #subscribeNowForm button {
+                    position: absolute;
+                    right: 1px;
+                }
 
             .end-title-body .image {
                 height: 313px;
