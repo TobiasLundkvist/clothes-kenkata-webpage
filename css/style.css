@@ -1149,6 +1149,10 @@ html, body {
         display: none;
     }
 
+    .background-color .end-title-body .end-title p {
+        display: none;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -1215,23 +1219,36 @@ html, body {
         grid-template-rows: 1fr 1fr;
     }
 
+    
+    .new-customer {
+        height: auto;
+    }
+
     .new-customer .new-customer-body .new-customer-discount {
         width: 100%;
+        height: auto;
+        padding: 2rem;
     }
 
     .new-customer .new-customer-body .new-customer-learnmore {
         display: none;
     }
 
-    
+    .flash-sale {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
     .flash-sale .flash-sale-body {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
     }
     .flash-sale .flash-sale-body .flash-sale-box {
         width: 100%;
+        height: auto;
+        padding: 2rem;
         margin-bottom: 2rem;
         margin-top: 2rem;
     }
@@ -1252,6 +1269,19 @@ html, body {
     .background-color .end-title-body .image {
         display: none;
     }
+
+
+    .signup-signin .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .signup-signin .container .card .card-body .external-socialmedia-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
 
 
