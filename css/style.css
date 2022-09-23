@@ -183,7 +183,12 @@ html, body {
                 outline: 0;
                 box-shadow: 0 0 3px 0 var(--color-gray-0);
             }
-     
+            
+            .form-error {
+                color: var(--color-product-outofstock);
+                font-size: 0.9em;
+                visibility: hidden;
+            }
 
 
 /* top menu */
@@ -294,7 +299,17 @@ html, body {
                 border: 1px solid var(--color-gray-2);
                 font-size: 0.9rem;
                 padding-left: 1.3rem;
+                transition: 0.2s ease-in-out;
             }
+
+                .main-menu .search #searchboxForm input:focus {
+                    border: 1px solid var(--color-gray-0);
+                }
+                .main-menu .search #searchboxForm input::placeholder {
+                    color: var(--color-gray-0);
+                    font-family: var(--font-roboto);
+                }
+
             .main-menu .search #searchboxForm button {
                 position: absolute;
                 top: 0;
@@ -862,7 +877,17 @@ html, body {
                     border: 1px solid var(--color-gray-2);
                     outline: none;
                     padding-left: 1.5rem;
+                    transition: 0.2s ease-in-out ;
                 }
+                #subscribeNowForm .subscribenow:focus {
+                    border: 1px solid var(--color-gray-0);
+                }
+
+                #subscribeNowForm .subscribenow::placeholder {
+                    color: var(--color-gray-0);
+                    font-family: var(--font-roboto);
+                }
+
                 #subscribeNowForm button {
                     position: absolute;
                     right: 1px;
