@@ -803,6 +803,10 @@ html, body {
             width: auto;
             height: 100%;
         }
+        
+        .top-seller-card1 .col {
+            height: 100%;
+        }
 
         .col .card-body-auto h1 {
             margin-top: 3.2rem;
