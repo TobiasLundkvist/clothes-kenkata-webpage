@@ -352,6 +352,21 @@ html, body {
         .main-menu .checkout-links .checkout-link i {
             font-size: var(--font-size-16); 
         }
+
+        .main-menu .checkout-links #shuffle {
+            position: relative;
+        }
+
+            .main-menu .checkout-links #shuffle .shuffle {
+                background-color: var(--color-theme);
+                position: absolute;
+                top: -1.2rem;
+                left: 0.7rem;
+            }
+            .main-menu .checkout-links #shuffle:hover .shuffle {
+                background-color: var(--color-theme-dark);
+            }
+
         .main-menu .checkout-links #cart {
             position: relative;
         }
