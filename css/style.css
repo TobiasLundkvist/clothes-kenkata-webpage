@@ -217,6 +217,7 @@ html, body {
                 color: var(--color-white);
                 border: none;
                 padding: 0;
+                transition: 0.3s ease-in-out;
             }
                 .top-menu .site-settings .dropdown-theme button:hover{
                     color: var(--color-theme-dark);
@@ -235,10 +236,12 @@ html, body {
                     border: none;
                     width: 100%;
                     margin: 0;
+                    transition: 0.2s ease-in-out;
                 }
                     .top-menu .site-settings .dropdown-theme .dropdown-menu .dropdown-item:hover{
                         background-color: var(--color-theme-dark);
                         color: var(--color-white);
+                        text-decoration: none;
                     }
 
     /* info-/socialmedia links */
@@ -246,6 +249,7 @@ html, body {
         color: var(--color-white);
         text-decoration: none;
         margin: 1.2rem;
+        transition: 0.3s ease-in-out;
     }
 
         .top-menu .menu-links a:hover{
@@ -336,7 +340,8 @@ html, body {
     .main-menu .checkout-links .checkout-link  {
         text-decoration: none;
         color: var(--color-theme-dark);
-        margin: 0 0.6rem
+        margin: 0 0.6rem;
+        transition: 0.3s ease-in-out;
     }
 
             .main-menu .checkout-links .checkout-link:hover  {
@@ -361,6 +366,7 @@ html, body {
                 position: absolute;
                 top: -1.2rem;
                 left: 0.7rem;
+                transition: 0.3s ease-in-out;
             }
             .main-menu .checkout-links #shuffle:hover .shuffle {
                 background-color: var(--color-theme-dark);
@@ -374,6 +380,7 @@ html, body {
                 position: absolute;
                 top: -1.2rem;
                 left: 0.7rem;
+                transition: 0.3s ease-in-out;
             }
                 .main-menu .checkout-links #cart:hover .badge {
                     background-color: var(--color-theme-dark);
@@ -406,7 +413,7 @@ html, body {
                 justify-content: space-between;
                 align-items: center;
                 padding: 0.7rem 1rem;
-                transition: 0.15s ease-in-out;
+                transition: 0.3s ease-in-out;
             }
                 .main-menu nav .browse-categories button:hover {
                     background-color: var(--color-theme-dark);
@@ -429,9 +436,11 @@ html, body {
                 .main-menu nav .browse-categories .dropdown .dropdown-menu .dropdown-item {
                     background-color: var(--color-theme);
                     color: var(--color-white);
+                    transition: 0.2s ease-in-out;
                 }
                 .main-menu nav .browse-categories .dropdown .dropdown-menu .dropdown-item:hover {
                     background-color: var(--color-theme-dark);
+                    text-decoration: none;
                 }
 
                 /* Special offers */
