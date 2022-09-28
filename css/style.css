@@ -708,28 +708,33 @@ html, body {
                 width: 280px;
                 height: 420px;
                 background-color: var(--color-theme);
-                color: var(--color-white);
+                color: var(--color-white); 
             }
 
                 .new-customer .new-customer-body .new-customer-discount h1 {
                     font-family: var(--font-play);
                     font-weight: var(--font-weight-bold);
+                    font-size: 2.25rem;
                 }
                     .new-customer .new-customer-body .new-customer-discount h1 span {
-                        font-size: var(--font-size-60);
                         font-family: var(--font-play);
+                        font-weight: var(--font-weight-bold);
+                        font-size: 3.75rem;
+                        padding-bottom: 0.5rem ;
                     }
 
                     .new-customer .new-customer-body .new-customer-discount p {
-                        font-size: var(--font-size-16);
+                        font-size: 1rem;
                         font-weight: var(--font-weight-regular);
                     }
 
                 .new-customer .new-customer-body .new-customer-learnmore {
-                    width: 37rem;
-                    height: 8rem;
+                    width: 445px;
+                    height: 97px;
                     color: var(--color-white);
-                    line-height: 2rem;
+                    line-height: 1.5rem;
+                    font-size: 0.875rem;
+                    margin-bottom: 3rem;
                 }
 
 /* featured products */
@@ -756,15 +761,16 @@ html, body {
             }
 
                 .flash-sale .flash-sale-body .flash-sale-box h1 {
-                    font-size: var(--font-size-60);
+                    font-size: 3.75rem;
                     font-family: var(--font-play);
                     font-weight: var(--font-weight-bold);
-                    margin-top: 1.5rem;                    
+                    margin-top: 3rem;                    
                 }
 
                 .flash-sale .flash-sale-body .flash-sale-box p {
-                    font-size: var(--font-size-24);
+                    font-size: 1.5rem;
                     font-family: var(--font-roboto);
+                    font-weight: var(--font-weight-medium);
                 }
 
         /* flash sale circle */
@@ -780,7 +786,7 @@ html, body {
             align-items: center;
             margin-top: 6rem;
             margin-bottom: 1rem;
-            line-height: 2.2rem;
+            line-height: 1.9rem;
         }
         
             .flash-sale .flash-sale-body .flash-sale-body-circle .flash-sale-circle .circle {
@@ -790,18 +796,18 @@ html, body {
                 background-color: var(--color-white);
                 color: var(--color-dark);
                 outline-color: var(--color-theme);
-                margin: 1rem;
                 outline-style: dotted;
+                margin: 1rem;
                 text-align: center;
-                font-size: var(--font-size-16);
+                font-size: 1rem;
                 font-family: var(--font-roboto);
                 font-weight: var(--font-weight-regular);
-                padding-top: 1.4rem;
+                padding-top: 1.8rem;
                 transition: background-color 0.2s ease-in-out;
             }
                 .flash-sale .flash-sale-body .flash-sale-body-circle .flash-sale-circle .circle span {
                     font-family: var(--font-play);
-                    font-size: var(--font-size-36);
+                    font-size: 2.25rem;
                     font-weight: var(--font-weight-bold);
                     color: var(--color-theme);
                     display: block;
@@ -867,7 +873,7 @@ html, body {
 
             .end-title-body .end-title h1 {
                 font-family: var(--font-play);
-                font-size: var(--font-size-36);
+                font-size: 2.25rem;
                 font-weight: var(--font-weight-bold);
                 color: var(--color-theme-dark);
 
@@ -878,7 +884,7 @@ html, body {
             .end-title-body .end-title p {
                 width: 500px;
                 height: 49px;
-                font-size: var(--font-size-16);
+                font-size: 1rem;
                 font-family: var(--font-roboto);
                 font-weight: var(--font-weight-regular);
                 margin-top: 1rem;
@@ -929,7 +935,7 @@ html, body {
     }
 
         .text-footer {
-            font-size: var(--font-size-16);
+            font-size: 1rem;
             font-family: var(--font-roboto);
             font-weight: var(--font-weight-regular);
             padding-top: 1.5rem;
