@@ -264,7 +264,6 @@ html, body {
                 }
 
 /* main menu */
-
 .main-menu {
    background-color: var(--color-white); 
    color: var(--color-theme-dark)
@@ -572,7 +571,7 @@ html, body {
     }
 
     /* New arrivals */
-    /* and the card with transitions */
+    /* and card with transitions */
     .col .card {
         position: relative;
         height: 380px;
@@ -581,7 +580,6 @@ html, body {
     }
 
     .col .card img {
-        /* height: 400px; */
         height: 100%;
         width: 100%;
         object-fit: contain;
@@ -1216,6 +1214,10 @@ html, body {
                 .main-menu .checkout-links .checkout-link:last-child {
                     margin: 0; 
                 }
+
+                    .main-menu .checkout-links #shuffle .shuffle {
+                        display: none;
+                    }
                     .main-menu .checkout-links #cart .badge {
                         display: none;
                     }
